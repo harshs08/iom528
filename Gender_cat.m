@@ -23,7 +23,7 @@ disp(col_g);
 
 fileID = fopen('gender_cat.txt','w');
 for i = 1 : len
-   fprintf(fileID,'%6s %2d\n',Name{i}, col_g(i));
-%     fprintf(fileID,'%2d\n',col_g(i));
+%    fprintf(fileID,'%6s %2d\n',Name{i}, col_g(i));
+     fprintf(fileID,'%2d\n',col_g(i));
 
 end
